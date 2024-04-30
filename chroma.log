@@ -1,0 +1,459 @@
+[32mINFO[0m:     [25-04-2024 15:38:54] Set chroma_server_nofile to 65535
+[32mINFO[0m:     [25-04-2024 15:41:58] Set chroma_server_nofile to 65535
+[32mINFO[0m:     [25-04-2024 15:45:20] Set chroma_server_nofile to 65535
+[32mINFO[0m:     [25-04-2024 15:45:20] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [25-04-2024 15:45:20] Starting component System
+[36mDEBUG[0m:    [25-04-2024 15:45:20] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [25-04-2024 15:45:20] Starting component SqliteDB
+[36mDEBUG[0m:    [25-04-2024 15:45:20] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [25-04-2024 15:45:20] Starting component Posthog
+[36mDEBUG[0m:    [25-04-2024 15:45:20] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [25-04-2024 15:45:20] Starting component SegmentAPI
+[32mINFO[0m:     [25-04-2024 15:45:20] Started server process [[36m22312[0m]
+[32mINFO[0m:     [25-04-2024 15:45:20] Waiting for application startup.
+[32mINFO[0m:     [25-04-2024 15:45:20] Application startup complete.
+[32mINFO[0m:     [25-04-2024 15:45:20] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [29-04-2024 19:21:30] Set chroma_server_nofile to 65535
+[32mINFO[0m:     [29-04-2024 19:21:30] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [29-04-2024 19:21:30] Starting component System
+[36mDEBUG[0m:    [29-04-2024 19:21:30] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [29-04-2024 19:21:30] Starting component SqliteDB
+[36mDEBUG[0m:    [29-04-2024 19:21:30] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [29-04-2024 19:21:30] Starting component Posthog
+[36mDEBUG[0m:    [29-04-2024 19:21:30] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [29-04-2024 19:21:30] Starting component SegmentAPI
+[32mINFO[0m:     [29-04-2024 19:21:30] Started server process [[36m40145[0m]
+[32mINFO[0m:     [29-04-2024 19:21:30] Waiting for application startup.
+[32mINFO[0m:     [29-04-2024 19:21:30] Application startup complete.
+[32mINFO[0m:     [29-04-2024 19:21:30] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [29-04-2024 19:24:29] ::1:59884 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 19:24:29] ::1:59884 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 19:26:27] ::1:59963 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 19:26:27] ::1:59963 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 19:26:30] ::1:59972 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 19:26:30] ::1:59972 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:21:29] ::1:62183 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:21:29] ::1:62183 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:21:31] ::1:62186 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:21:31] ::1:62186 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:24:42] ::1:62228 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:24:42] ::1:62228 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:24:44] ::1:62231 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:24:44] ::1:62231 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:25:03] ::1:62240 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:25:03] ::1:62240 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:25:05] ::1:62245 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:25:05] ::1:62245 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:26:35] ::1:62275 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:26:35] ::1:62275 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:26:36] ::1:62280 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:26:36] ::1:62280 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:26:40] ::1:62285 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:26:40] ::1:62285 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:26:55] ::1:62296 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:26:55] ::1:62296 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:26:56] ::1:62303 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:26:56] ::1:62303 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:32:07] ::1:62408 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:32:07] ::1:62408 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:32:08] ::1:62416 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:32:09] ::1:62416 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:34:01] ::1:62440 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:34:01] ::1:62440 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:34:02] ::1:62446 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:34:02] ::1:62446 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:35:38] ::1:62474 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:35:38] ::1:62474 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:35:40] ::1:62477 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:35:40] ::1:62477 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:39:41] ::1:62597 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:39:41] ::1:62597 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:39:42] ::1:62603 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:39:42] ::1:62603 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:40:44] ::1:62621 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:40:44] ::1:62621 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:40:45] ::1:62625 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:40:45] ::1:62625 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:47:07] ::1:62767 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:47:07] ::1:62767 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:47:09] ::1:62774 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:47:09] ::1:62774 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:50:10] ::1:62821 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:50:10] ::1:62821 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:50:11] ::1:62825 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:50:11] ::1:62825 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:53:22] ::1:62859 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:53:22] ::1:62859 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:53:23] ::1:62865 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:53:23] ::1:62865 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:54:30] ::1:62889 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:54:30] ::1:62889 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:54:31] ::1:62894 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:54:31] ::1:62894 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:54:45] ::1:62904 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:54:45] ::1:62904 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:54:47] ::1:62910 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:54:47] ::1:62910 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:55:02] ::1:62918 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:55:02] ::1:62918 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:55:03] ::1:62924 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:55:03] ::1:62924 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:55:04] ::1:62928 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:55:04] ::1:62928 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:55:43] ::1:62939 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:55:43] ::1:62939 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:55:45] ::1:62944 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 20:55:45] ::1:62944 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:11:30] ::1:63215 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:11:30] ::1:63215 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:11:32] ::1:63218 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:11:32] ::1:63218 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:12:50] ::1:63253 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:12:50] ::1:63253 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:12:51] ::1:63257 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:12:51] ::1:63257 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:15:04] ::1:63323 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:15:04] ::1:63323 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:15:06] ::1:63327 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:15:06] ::1:63327 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:15:07] ::1:63329 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:15:07] ::1:63329 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:27:15] ::1:63581 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:27:15] ::1:63581 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:29:54] ::1:63625 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:29:54] ::1:63625 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:29:55] ::1:63631 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:29:55] ::1:63631 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:30:26] ::1:63645 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:30:27] ::1:63645 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:30:28] ::1:63650 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:30:28] ::1:63650 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:30:41] ::1:63660 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:30:41] ::1:63660 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:30:43] ::1:63665 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:30:43] ::1:63665 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:31:25] ::1:63678 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:31:25] ::1:63678 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:31:26] ::1:63684 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:31:26] ::1:63684 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:31:43] ::1:63697 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:31:43] ::1:63697 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:31:44] ::1:63703 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:31:44] ::1:63703 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:32:15] ::1:63714 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:32:15] ::1:63714 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:32:16] ::1:63720 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:32:16] ::1:63720 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:32:48] ::1:63733 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:32:48] ::1:63733 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:32:50] ::1:63738 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:32:50] ::1:63738 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:36:57] ::1:63824 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [29-04-2024 21:36:57] ::1:63824 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:13:31] ::1:65505 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:13:31] ::1:65505 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:13:32] ::1:65508 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:13:32] ::1:65508 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:13:51] ::1:65518 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:13:51] ::1:65518 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:43:06] ::1:49404 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:43:06] ::1:49404 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:43:13] ::1:49409 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:43:13] ::1:49409 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:43:14] ::1:49417 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:43:14] ::1:49417 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:47:00] ::1:49486 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:47:00] ::1:49486 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:47:01] ::1:49492 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:47:01] ::1:49492 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:47:12] ::1:49500 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:47:12] ::1:49500 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:55:03] ::1:49604 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:55:03] ::1:49604 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:55:05] ::1:49610 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:55:05] ::1:49610 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:55:49] ::1:49633 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:55:49] ::1:49633 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:55:50] ::1:49636 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:55:50] ::1:49636 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:56:29] ::1:49647 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:56:29] ::1:49647 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:56:30] ::1:49652 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:56:30] ::1:49652 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:59:15] ::1:49711 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:59:15] ::1:49711 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:59:16] ::1:49716 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 11:59:16] ::1:49716 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:00:00] ::1:49729 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:00:00] ::1:49729 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:00:01] ::1:49732 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:00:01] ::1:49732 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:00:19] ::1:49745 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:00:19] ::1:49745 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:00:20] ::1:49751 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:00:20] ::1:49751 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:08:27] ::1:49925 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:08:27] ::1:49925 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:08:28] ::1:49930 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:08:28] ::1:49930 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:09:48] ::1:49946 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:09:48] ::1:49946 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:09:50] ::1:49953 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:09:50] ::1:49953 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:21:36] ::1:50090 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:21:36] ::1:50090 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:23:42] ::1:50113 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:23:42] ::1:50113 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:23:44] ::1:50119 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:23:44] ::1:50119 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:32:54] ::1:50222 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:32:54] ::1:50222 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:34:59] Shutting down
+[32mINFO[0m:     [30-04-2024 12:34:59] Finished server process [[36m40145[0m]
+[36mDEBUG[0m:    [30-04-2024 12:34:59] Stopping component System
+[36mDEBUG[0m:    [30-04-2024 12:34:59] Stopping component SegmentAPI
+[36mDEBUG[0m:    [30-04-2024 12:34:59] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [30-04-2024 12:34:59] Stopping component Posthog
+[36mDEBUG[0m:    [30-04-2024 12:34:59] Stopping component QuotaEnforcer
+[36mDEBUG[0m:    [30-04-2024 12:34:59] Stopping component SqliteDB
+[36mDEBUG[0m:    [30-04-2024 12:34:59] Stopping component OpenTelemetryClient
+[31mERROR[0m:    [30-04-2024 12:34:59] Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1511, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1504, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1377, in uvloop.loop.Loop.run_forever
+  File "uvloop/loop.pyx", line 555, in uvloop.loop.Loop._run
+  File "uvloop/loop.pyx", line 474, in uvloop.loop.Loop._on_idle
+  File "uvloop/cbhandles.pyx", line 83, in uvloop.loop.Handle._run
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 68, in serve
+    with self.capture_signals():
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/uvicorn/server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/runners.py", line 157, in _on_sigint
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 741, in lifespan
+    await receive()
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/uvicorn/lifespan/on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+[32mINFO[0m:     [30-04-2024 12:35:39] Set chroma_server_nofile to 65535
+[32mINFO[0m:     [30-04-2024 12:35:39] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [30-04-2024 12:35:39] Starting component System
+[36mDEBUG[0m:    [30-04-2024 12:35:39] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [30-04-2024 12:35:39] Starting component SqliteDB
+[36mDEBUG[0m:    [30-04-2024 12:35:39] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [30-04-2024 12:35:39] Starting component Posthog
+[36mDEBUG[0m:    [30-04-2024 12:35:39] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [30-04-2024 12:35:39] Starting component SegmentAPI
+[32mINFO[0m:     [30-04-2024 12:35:39] Started server process [[36m53425[0m]
+[32mINFO[0m:     [30-04-2024 12:35:39] Waiting for application startup.
+[32mINFO[0m:     [30-04-2024 12:35:39] Application startup complete.
+[32mINFO[0m:     [30-04-2024 12:35:39] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [30-04-2024 12:35:48] ::1:50270 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:35:48] ::1:50270 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:36:04] ::1:50277 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:36:04] ::1:50277 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [30-04-2024 12:36:04] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [30-04-2024 12:36:04] ::1:50277 - "POST /api/v1/collections/5594be5e-47e1-45df-ac72-cd653811c753/add HTTP/1.1" 201
+[32mINFO[0m:     [30-04-2024 12:36:04] ::1:50277 - "POST /api/v1/collections/5594be5e-47e1-45df-ac72-cd653811c753/get HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:47:45] Collection contracts is not created.
+[32mINFO[0m:     [30-04-2024 12:47:45] ::1:50503 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:51:35] ::1:50571 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:51:35] ::1:50571 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:51:37] ::1:50575 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:51:37] ::1:50575 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:54:21] ::1:50625 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:54:21] ::1:50625 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:54:23] ::1:50631 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:54:23] ::1:50631 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:56:02] ::1:50689 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:56:02] ::1:50689 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:56:03] ::1:50694 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:56:03] ::1:50694 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:56:05] ::1:50698 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:56:05] ::1:50698 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:56:09] ::1:50702 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:56:09] ::1:50702 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:56:13] ::1:50707 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:56:13] ::1:50707 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:56:30] ::1:50717 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:56:30] ::1:50717 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:56:31] ::1:50721 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:56:31] ::1:50721 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:57:12] ::1:50747 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:57:12] ::1:50747 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:57:13] ::1:50750 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:57:13] ::1:50750 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:57:35] Collection contracts is not created.
+[32mINFO[0m:     [30-04-2024 12:57:35] ::1:50766 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:57:35] ::1:50766 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 12:57:35] ::1:50766 - "POST /api/v1/collections/5594be5e-47e1-45df-ac72-cd653811c753/add HTTP/1.1" 201
+[32mINFO[0m:     [30-04-2024 12:57:35] ::1:50766 - "POST /api/v1/collections/5594be5e-47e1-45df-ac72-cd653811c753/get HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 13:03:13] Collection contracts is not created.
+[32mINFO[0m:     [30-04-2024 13:03:13] ::1:50854 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 13:03:13] ::1:50854 - "POST /api/v1/collections/5594be5e-47e1-45df-ac72-cd653811c753/add HTTP/1.1" 201
+[32mINFO[0m:     [30-04-2024 13:03:13] ::1:50854 - "POST /api/v1/collections/5594be5e-47e1-45df-ac72-cd653811c753/get HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:14:41] ::1:51242 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:14:41] ::1:51242 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:14:42] ::1:51245 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:14:42] ::1:51245 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:17:13] ::1:51271 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:17:13] ::1:51271 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:17:14] ::1:51277 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:17:14] ::1:51277 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:18:22] ::1:51296 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:18:22] ::1:51296 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:18:23] ::1:51300 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:18:23] ::1:51300 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:19:21] ::1:51327 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:19:21] ::1:51327 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:19:22] ::1:51333 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:19:22] ::1:51333 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:22:46] ::1:51373 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:22:46] ::1:51373 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:22:48] ::1:51379 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:22:48] ::1:51379 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:23:13] Collection contracts is not created.
+[32mINFO[0m:     [30-04-2024 14:23:13] ::1:51392 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:23:13] ::1:51392 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:23:13] ::1:51392 - "POST /api/v1/collections/5594be5e-47e1-45df-ac72-cd653811c753/add HTTP/1.1" 201
+[32mINFO[0m:     [30-04-2024 14:23:13] ::1:51392 - "POST /api/v1/collections/5594be5e-47e1-45df-ac72-cd653811c753/get HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:25:14] ::1:51422 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:25:14] ::1:51422 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:25:15] ::1:51431 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:25:15] ::1:51431 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:25:38] Collection contracts is not created.
+[32mINFO[0m:     [30-04-2024 14:25:38] ::1:51438 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:25:38] ::1:51438 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:25:38] ::1:51438 - "POST /api/v1/collections/5594be5e-47e1-45df-ac72-cd653811c753/add HTTP/1.1" 201
+[32mINFO[0m:     [30-04-2024 14:25:38] ::1:51438 - "DELETE /api/v1/collections/contracts?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[31mERROR[0m:    [30-04-2024 14:25:38] coroutine raised StopIteration
+Traceback (most recent call last):
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 851, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/chromadb/server/fastapi/__init__.py", line 839, in process_get
+    return self._api._get(
+           ^^^^^^^^^^^^^^^
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 143, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/chromadb/rate_limiting/__init__.py", line 45, in wrapper
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/chromadb/api/segment.py", line 508, in _get
+    metadata_segment = self._manager.get_segment(collection_id, MetadataReader)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 143, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/chromadb/segment/impl/manager/local.py", line 211, in get_segment
+    segment = self._get_segment_sysdb(collection_id, scope)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 143, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/chromadb/segment/impl/manager/local.py", line 193, in _get_segment_sysdb
+    segment = next(filter(lambda s: s["type"] in known_types, segments))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/chromadb/server/fastapi/__init__.py", line 78, in catch_exceptions_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/starlette/_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/chromadb/server/fastapi/__init__.py", line 92, in check_http_version_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/chromadb/telemetry/opentelemetry/__init__.py", line 130, in wrapper
+    return await f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/chromadb/server/fastapi/__init__.py", line 852, in get
+    await to_thread.run_sync(
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Rohit_Yadav/Library/CloudStorage/OneDrive-McKinsey&Company/Desktop/Recommand Contracts Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2144, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+RuntimeError: coroutine raised StopIteration
+[32mINFO[0m:     [30-04-2024 14:25:38] ::1:51438 - "POST /api/v1/collections/5594be5e-47e1-45df-ac72-cd653811c753/get HTTP/1.1" 500
+[32mINFO[0m:     [30-04-2024 14:26:55] ::1:51518 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:26:55] ::1:51518 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:26:56] ::1:51522 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:26:56] ::1:51522 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:27:13] ::1:51532 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:27:13] ::1:51532 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [30-04-2024 14:27:13] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [30-04-2024 14:27:13] ::1:51532 - "POST /api/v1/collections/5c964d58-e1c7-42b2-bf1d-b2e0f7c88516/add HTTP/1.1" 201
+[32mINFO[0m:     [30-04-2024 14:27:13] ::1:51532 - "POST /api/v1/collections/5c964d58-e1c7-42b2-bf1d-b2e0f7c88516/get HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:56:25] ::1:51894 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:56:25] ::1:51894 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:56:50] Collection contracts is not created.
+[32mINFO[0m:     [30-04-2024 14:56:50] ::1:51909 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:56:50] ::1:51909 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [30-04-2024 14:56:50] ::1:51909 - "POST /api/v1/collections/5c964d58-e1c7-42b2-bf1d-b2e0f7c88516/add HTTP/1.1" 201
+[32mINFO[0m:     [30-04-2024 14:56:50] ::1:51909 - "POST /api/v1/collections/5c964d58-e1c7-42b2-bf1d-b2e0f7c88516/get HTTP/1.1" 200
